@@ -1,12 +1,13 @@
 import React from "react";
+import Weather from "./Weather.js";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>React Weather App</h1>
-        <p>
+        <Weather/>
+        <footer>
           This project was coded by Sandra Garcia and is{" "}
           <a
             href="https://github.com/Garciasince00/react-weather-app"
@@ -15,7 +16,7 @@ export default function App() {
           >
             open-sourced on GitHub
           </a>
-        </p>
+        </footer>
       </div>
     </div>
   );
